@@ -1,0 +1,13 @@
+{
+  "concurrencySettings": [
+    {
+      "queueName": "alpha",
+      "concurrency": "5-10"
+
+    },
+    {
+      "queueName": "beta",
+      "concurrency": "1-10"
+    }
+  ]
+}

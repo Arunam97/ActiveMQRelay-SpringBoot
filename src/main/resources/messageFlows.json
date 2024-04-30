@@ -1,0 +1,15 @@
+{
+  "messageFlows": [
+    {
+      "sourceQueue": "alpha",
+      "destinationQueue": "beta",
+      "transformationFunction": "toUpperCase"
+    },
+    {
+      "sourceQueue": "beta",
+      "destinationQueue": "gamma",
+      "transformationFunction": "addStars"
+    }
+  ]
+}
+
